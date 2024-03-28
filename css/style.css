@@ -39,10 +39,6 @@ ul {
   opacity: 1;
 }
 
-.hidden {
-  display: none !important;
-}
-
 .main-content {
   padding-left: 270px;
 }
