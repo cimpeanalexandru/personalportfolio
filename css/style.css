@@ -1,4 +1,6 @@
-:root {
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
   --bg-black-500: #e8dfec;
@@ -9,6 +11,7 @@
 body {
   line-height: 1.5;
   font-size: 16px;
+  font-family: "Poppins" sans-serif;
 }
 
 * {
@@ -22,6 +25,10 @@ body {
 ::before,
 ::after {
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
 }
 
 .section {
@@ -39,10 +46,37 @@ body {
 /* aside */
 .aside {
   width: 270px;
-  background: var(--bg-black-100);
+  /* background: var(--bg-black-500); */
+  background: rgb(224, 224, 224);
   position: fixed;
   left: 0;
   top: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   z-index: 10;
+}
+
+.aside .logo {
+  position: absolute;
+  top: 50px;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.aside .logo a {
+  color: var(--text-black-900);
+  font-weight: 700;
+  padding: 15px 20px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  font-family: "Poppins";
+  position: relative;
+}
+
+.aside .logo a span {
+  font-family: "Clicker Script", cursive;
+  font-size: 40px;
 }
