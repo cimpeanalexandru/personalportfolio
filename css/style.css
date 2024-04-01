@@ -771,4 +771,23 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .about .buttons {
+    margin: auto auto;
+  }
+  .body {
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: 392px) {
+  .buttons .btn {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 424px) {
+  .about .about-content .personal-info .info-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
