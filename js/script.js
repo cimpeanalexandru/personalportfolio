@@ -5,7 +5,6 @@ var typed = new Typed(".typing", {
   BackSpeed: 60,
   loop: true
 })
-
 /* =============== Aside =============== */
 
 const nav = document.querySelector(".nav"),
